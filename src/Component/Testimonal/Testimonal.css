@@ -1,0 +1,38 @@
+.Testimonldiv{
+    width: 100%;
+    background-color: black;
+    height: 300px;
+    margin-top: 110px;
+    position: relative;
+}
+.testimonal{
+    width: 400px;
+    margin: auto;
+    color: white;
+    padding-top: 20px;
+}
+.imgdiv{
+    width: 50px;
+    height: 50px;
+}
+.imgdisplay{
+    display: flex;
+    justify-content:center;
+    color: white;
+  
+}
+.Arrowicon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 100px;
+    
+}
+.arrowdiv{
+         display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        top: 45%;
+    }
+   

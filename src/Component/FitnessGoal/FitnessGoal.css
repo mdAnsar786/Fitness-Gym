@@ -1,0 +1,16 @@
+.shopbtn{
+    width: 115px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: 1px solid gray;
+    
+}
+.Fitnessdiv{
+    width: 400px;
+    text-align: left;
+}
+.Fitnessmaindiv{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,42 @@
+.FooterMaindiv{
+    width: 100%;
+    background-color: black;
+    height: 330px;
+    margin-top: 16%;
+    color: white;
+}
+.Logotag{
+    width: 200px;
+    height:65px;
+}
+.Footerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: left;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-bottom-style: solid;
+}
+.UlTag{
+    list-style-type: none;
+    max-width: 600px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.scribebtn{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+.borderdiv{
+    border:1px thick;
+    color: white;
+}
+.SocialIcon{
+    border-radius: 30px;
+    border: 1px solid white;
+   
+}

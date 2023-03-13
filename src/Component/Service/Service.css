@@ -1,0 +1,70 @@
+.box-hostel {
+    width: 500px;
+    margin-right: 40px;
+}
+
+.box-hostel img {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    border: 5px solid rgb(237, 224, 224);
+}
+
+.indepen-msg {
+    width: 240px;
+    position: absolute;
+    height: 130px;
+    margin-top: -85px;
+    margin-left: 25px;
+   
+
+}
+
+.indepen-msg img {
+    width: 280px;
+    position: absolute;
+    height: 225px;
+    border: 5px solid white;
+    margin-left: 75%;
+
+}
+.serviceheader{
+    margin-bottom: 50px;
+}
+.Couching{
+    width: 400px;
+    text-align: left;
+}
+.servicediv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icontag{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 130px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(237, 224, 224);
+    /* border: 1px solid; */
+}
+.mainIcontag{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lasticontag{
+    margin-right: 30px;
+  
+}
+.serchbtn{
+    width: 130px;
+    height: 37px;
+    background-color: orange;
+    color: white;
+    border: 1px solid gray;
+    
+}

@@ -1,0 +1,19 @@
+.EnvysionFittnes1{
+    background-color: rgb(2, 2, 2);
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.img-Size{
+    height: 320px;
+    image-orientation: calc();
+   
+}
+.EnvysionFittnes2{
+    text-align: left;
+    max-width: 400px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
