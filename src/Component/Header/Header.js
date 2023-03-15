@@ -22,10 +22,10 @@ const Header = () => {
             style={{ maxHeight: '100px',textAlign:"center" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action2">join from</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/joinForm">join from</Nav.Link>
+            <Nav.Link href="/contact ">Contact</Nav.Link>
             <Nav.Link href="#" disabled>
             Help
             </Nav.Link>
@@ -37,7 +37,6 @@ const Header = () => {
               className="me-2"
               aria-label="Search"
             />
-            {/* <Button variant="outline-success">Search</Button> */}
           </Form>
         </Navbar.Collapse>
       </Container>

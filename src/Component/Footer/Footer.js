@@ -7,6 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Logo1 from "../../Assest/images/fitness-gym-logo.png"
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -43,7 +44,7 @@ const Footer = () => {
            <ul className="UlTag">
             <h6>MY ACCOUNT</h6>
             <li>Login</li>
-            <li>Register</li>
+            <li><Link to="/joinForm" style={{color:"white",textDecoration:"none"}}>Register</Link></li>
             <li>Terms of Service</li>
             <li>Privacy Policy</li>
             <li>Returns</li>

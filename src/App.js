@@ -10,20 +10,28 @@ import Traning from './Component/Traning/Traning';
 import Blog from './Component/Blog/Blog';
 import Testimonal from './Component/Testimonal/Testimonal';
 import Swipable from './Component/Swipable/Swipable';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Component/Home/Home';
+import JoinForm from './Component/JoinFrom/JoinForm';
+import Contact from './Component/Contact/Contact';
 
 
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <Swipable/>
-    <About/>
-    <Shop/>
-    <Service/>
-    <Traning/>
-    <Testimonal/>
-    <Blog/>
-    <Footer/>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/joinForm" element={<JoinForm />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+
+
+
     </div>
   );
 }
